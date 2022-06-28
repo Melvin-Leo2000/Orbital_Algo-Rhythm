@@ -26,7 +26,7 @@ app.use(fileUpload({
 app.use('/user', require('./routes/userRouter'))
 app.use('/upload', uploadimage)
 app.use("/posts", postRoute);
-app.use("/categories", categoryRoute);
+
 
 
 //connecting to MongoDB
