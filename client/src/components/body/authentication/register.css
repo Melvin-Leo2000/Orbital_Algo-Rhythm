@@ -1,0 +1,104 @@
+
+
+
+.regis_page{
+    max-width: 500px;
+    margin: auto;
+    color: white;
+    font-family: 'Poppin';
+    padding: 0 15px;
+}
+
+.regis_page input{
+    box-sizing: border-box;
+
+
+    width: 595px;
+    height: 69.67px;
+    background: #000000;
+    border: 2px solid #2B52DF;
+    border-radius: 10px;
+    color: white;
+    font-size: x-large;
+
+}
+
+
+.regis_page .row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+.regis_page .row2 a{
+    color: white;
+}
+
+.US{
+    position: relative;
+    left: 100px;
+    top: 270px;
+}
+
+.picture{
+    position: relative;
+    object-fit: cover;
+    left: -700px;
+    top: 0px;
+    width: 180%;
+    height: 850px;
+    
+}
+
+.regiserror{
+    position: relative; top: 43%; left: 100px;
+    padding-top: 0px; padding-top: 0px;
+}
+
+.regisemail{
+    position: relative;
+    left: 100px;
+    top: 300px;
+}
+
+.regispw{
+    position: relative;
+    left: 100px;
+    top: 330px;
+}
+
+.CPW{
+    position: relative;
+    left: 100px;
+    top: 360px;
+}
+
+
+.regis_page .row2 button{
+    position: relative; left: 160px; top: 400px; 
+    width: 443px;
+    height: 83.19px;
+    padding: 10px 0;
+    color: white;
+    background: #2B52DF;
+    font-size: xx-large;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    font-family: 'Poppins';
+    border-radius: 25px;
+}
+
+.regis_page .row2 button:hover{
+    background-color: #085EFF;
+}
+
+.regis_page .row2 button:active {
+    transform: scale(0.98);
+}
+
+.logg{
+    position: relative;
+    right: 260px;
+    top: 480px;
+    font-size: x-large;
+}

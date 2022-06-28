@@ -1,0 +1,120 @@
+
+.login_page{
+    max-width: 500px;
+    margin: auto;
+    color: white;
+    font-family: 'Poppin';
+    padding: 0 15px;
+}
+
+
+
+.login_page .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+.login_page .row a{
+    color: white;
+}
+
+
+.form {
+    position: absolute; right: 120px; top: 30px;
+    width: 774px;
+    height: 850px;
+
+    background: #020202;
+    border-radius: 25px;
+}
+
+.login_page input{
+    box-sizing: border-box;
+
+
+    width: 595px;
+    height: 69.67px;
+    background: #000000;
+    border: 2px solid #2B52DF;
+    border-radius: 10px;
+    color: white;
+    font-size: x-large;
+
+}
+
+.EM{
+    position: relative;
+    left: 100px;
+    top: 300px;
+
+}
+.PW{
+    position: relative;
+    left: 100px;
+    top: 350px;
+}
+
+.algo{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 220px;
+    top: -50px;
+}
+
+.login_page .row button{
+    position: relative; left: 160px; top: 420px; 
+    width: 443px;
+    height: 83.19px;
+    padding: 10px 0;
+    color: white;
+    background: #2B52DF;
+    font-size: xx-large;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    font-family: 'Poppins';
+    border-radius: 25px;
+}
+
+.loginbutton{
+        position: relative; left: 160px; top: 300px; 
+}
+
+
+.login_page .row button:hover{
+    background-color: #085EFF;
+}
+
+.login_page .row button:active {
+    transform: scale(0.98);
+}
+
+
+
+
+
+.regis{
+    position: relative; left: -230px; top: 560px;
+    font-size: x-large;
+
+}
+
+.quotation {
+
+    position: relative;
+    width: 700px;
+    height: 0px;
+    right: 580px;
+    top: -950px;
+    color: white;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

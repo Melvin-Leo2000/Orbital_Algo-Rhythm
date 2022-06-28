@@ -1,0 +1,60 @@
+.post {
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .post:hover{
+    background-color: #DCE5F5;
+  }
+  .postImg {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .postCat {
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: white;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+    padding-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .postTitle h3{
+      color: black;
+  }
+  
+  .postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+  }
+  

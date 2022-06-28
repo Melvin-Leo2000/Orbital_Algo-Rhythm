@@ -1,0 +1,109 @@
+.singlePost {
+  flex: 9;
+  
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 50%;
+  height: 600px;
+  border-radius: 10px;
+  object-fit: fill;
+  display: flex;
+  align-items: center;
+  margin-left: auto;  
+  margin-right: auto;  
+}
+
+
+.singlePostTitle {
+    color: black;
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .singlePostInfo {
+    margin-bottom: 20px;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: "Varela Round", sans-serif;
+    color: black;
+    margin-left: auto;  
+    margin-right: auto;  
+
+  }
+
+
+  .singlePostDate{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin-left: auto;  
+    margin-right: auto;  
+    padding-bottom: 0.5em;
+  }
+  .singlePostDesc {
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    width: 50%;
+    margin-left: auto;  
+    margin-right: auto;  
+    
+  }
+  
+
+  .singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .singlePostDescInput:focus {
+    outline: none;
+  }
+
+  .singlePostButton {
+    font-weight: 300;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #2B52DF;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-left: auto;  
+    margin-right: auto;  
+  }
+
+  .singlePostButton:hover{
+    background-color: #085EFF;
+  }
+  .singlePostButton:active {
+    transform: scale(0.98);
+}

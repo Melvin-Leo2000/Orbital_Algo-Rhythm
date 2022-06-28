@@ -1,0 +1,69 @@
+.chart-bg {
+    background-color: white;
+  }
+
+
+.stock-faq{
+    position: relative;
+    right: -500px;
+    width: 2000px;
+    padding-top: 5%;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+
+.disclaimer{
+  position: relative;
+  right: -800px;
+}
+.stock-form{
+  width: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: 50%;
+  margin-top: 5%;
+}
+
+
+
+  .stock-form input{
+    margin: 0px;
+    padding: 0px;
+    width: 650px;
+    height: 40px;
+    font-size: 1.43em;
+    border-radius: 10px;
+
+  }
+
+  .before-button{
+    position: absolute;
+    top: 0;
+    right: -355px;
+    top: 2px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    width: 5em;
+    vertical-align: middle;
+    background-color: #085EFF;
+    color: white;
+    border-radius: 10px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .after-button{
+    position: absolute;
+    right: -700px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    width: 5em;
+    width: 8em;
+    background-color: #085EFF;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .stock-input:hover{
+    background-color: aliceblue;
+  }
