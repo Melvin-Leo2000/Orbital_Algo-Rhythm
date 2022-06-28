@@ -6,10 +6,9 @@ const cookieParser = require('cookie-parser')
 const fileUpload = require('express-fileupload')
 const path = require('path')
 const postRoute = require("./routes/userPosts")
-const categoryRoute = require("./routes/categoriesRoutes")
 const uploadimage = require('./routes/uploadimg')
 
-const got = require('got');
+
 
 const app = express()
 
