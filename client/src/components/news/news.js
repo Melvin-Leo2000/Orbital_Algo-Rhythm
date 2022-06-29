@@ -19,7 +19,7 @@ useEffect(() => {
 
   return (
     <div ClassName="news">
-        {posts && posts.length && posts.map((p, index) => (
+        {posts && posts.length && posts.map(p => (
           <Post post={p} />
         ))}
     </div>
