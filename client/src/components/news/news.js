@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import Posts from "../body/postholder/postholder"
-import Post from "../body/specificpost/specificpost"
+import Post from "../../components/body/specificpost/specificpost"
 import "./news.css"
 import axios from "axios";
 
 
 export default function News() {
 const [posts, setPosts] = useState([]);
+
 
 useEffect(() => {
     const fetchPosts = async () => {
@@ -15,9 +15,13 @@ useEffect(() => {
     };
     fetchPosts();
   }, []);
+  console.log(posts)
+
   return (
     <div ClassName="news">
-        <Posts posts={posts} />
+        {posts && posts.length && posts.map((p, index) => (
+          <Post post={p} />
+        ))}
     </div>
   )
 }
