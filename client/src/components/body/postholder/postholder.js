@@ -5,7 +5,7 @@ import "./postholder.css"
 export default function Posts({ posts }) {
     return (
       <div className="postholder">
-        {posts.map((p) => (
+        {posts && posts.length && posts.map((p) => (
           <Post post={p} />
         ))}
       </div>
