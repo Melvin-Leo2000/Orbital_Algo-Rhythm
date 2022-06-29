@@ -41,7 +41,6 @@
     "server-install": "npm install",
     "client-install": "cd client && npm install",
     "install-all": "concurrently \"npm run server-install\"  \"npm run client-install\"",
-    "build": "react-scripts build",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "eslintConfig": {
