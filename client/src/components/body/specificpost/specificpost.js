@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Specificpost({post}) {
   return (
+    <div>
     <Link to={`/post/${post._id}`} className='post'>
           {post.photo && <img className="postImg" src={post.photo} alt="" />}
       <div className="postInfo">
@@ -24,5 +25,6 @@ export default function Specificpost({post}) {
     </div>
 
   </Link>
+  </div>
   )
 }
