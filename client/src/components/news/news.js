@@ -19,9 +19,14 @@ useEffect(() => {
 
   return (
     <div ClassName="news">
-        {posts.map(p => (
-          <Post post={p} />
-        ))}
+        {posts.map(p => {
+          return(
+            <div>
+              <h1>{p.title}</h1>
+            </div>
+          )
+        })}
     </div>
   )
 }
+
