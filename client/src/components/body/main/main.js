@@ -23,9 +23,6 @@ export default function Main() {
           <div className="snaps">
             <h2>Check-out Rhythm-share from others </h2>
             <p>Your essential 2 minute market digests.</p>
-          </div>
-            <News></News>
-          </div>
 
           <div className="market">
             <h2>Market Summary for S&P 500</h2>
