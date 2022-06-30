@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# NUS Orbital Project 2022 Algo-rhythm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo contains our National University of Singapore CP2106: Independent Software Development Project
+
+## Project Member
+
+Brandon Lau and Melvin Leo
+
+## Algo-Rhythm Web App
+
+By providing equal access to tools for retail and institutional investors, we hope to level the playing field and create a fairer financial capital market system for economies. Through this, more retail investors would be incentivised to participate in the financial markets and stimulate growth for their respective economies.
 
 ## Available Scripts
 
