@@ -10,6 +10,29 @@ Brandon Lau and Melvin Leo
 
 By providing equal access to tools for retail and institutional investors, we hope to level the playing field and create a fairer financial capital market system for economies. Through this, more retail investors would be incentivised to participate in the financial markets and stimulate growth for their respective economies.
 
+## Proposed Tech Stack
+
+React.js (Front-End Development)
+
+Made use of both React classes and functional components, as well as react dependencies and hooks to build the client side. 
+
+
+
+Express.js + Node.js
+
+Server side and utilized many npm packages, primarily using axios for API calls, cloudinary for storing images on cloud, plotly.js, and react-apexcharts in plotting our graphs.
+
+MongoDB (Database)
+User and post schema designed to store user information, and blog posts.
+
+API
+Yahoo Finance API
+Alpha Vantage API
+
+Heroku (Cloud hosting)
+Deployed to Heroku by connecting our github repo
+
+
 ## Available Scripts
 
 In the project directory, you can run:
