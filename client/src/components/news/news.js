@@ -16,16 +16,24 @@ useEffect(() => {
     };
     fetchPosts();
   }, []);
-
+  console.log(posts)
 
   
 
   return (
     <div ClassName="news">
-        {posts.map(p => (
-          
-          <Post post={p} />
-        ))}
+        {posts.map(p => {
+          return(
+          <Post
+             _id={p._id}
+             title={p.title}
+             photo={p.photo}
+             name={p.name}
+             createdAt={p.createdAt}  
+
+             />
+          )
+        })}
     </div>
   )
 }
