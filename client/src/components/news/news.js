@@ -19,14 +19,13 @@ useEffect(() => {
     };
     fetchPosts();
   }, []);
-  console.log(posts)
-  console.log(Array.isArray(posts))
+
 
   
 
   return (
     <div ClassName="news">
-        {posts?.map(p => {
+        {posts.map(p => {
           return(
           <Post
              _id={p._id}
